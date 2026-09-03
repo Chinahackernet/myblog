@@ -13,7 +13,7 @@
     <a href="https://github.com/l-hammer/You-need-to-know-css"><img src="https://img.shields.io/github/stars/l-hammer/You-need-to-know-css.svg?style=social"></a>
   </p>
   <p align="center">
-     我是一个不误正业的运维，一个机房美学大师，电子垃圾回收员，极度强迫症，整活专家<br>
+     我是一个不误正业的运维，机房美学大师，电子垃圾回收员，极度强迫症，整活专家 <br>
   </p>
 </p>
 
