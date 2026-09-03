@@ -1,31 +1,23 @@
 
 <p align="center">
-  <a href="https://lhammer.cn/You-need-to-know-css/#/">
+  <a href="https://www.wzd85.com/">
     <img src="https://lhammer.cn/You-need-to-know-css/static/logo.png" width="152">
   </a>
   <h3 align="center">运维日常笔记</h3>
-  <p align="center">
-    <a href="https://gitter.im/You-need-to-know-css/Lobby"> <img src="https://badges.gitter.im/You-need-to-know-css/Lobby.svg"></a>
-    <a href="https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-Anti%20996-blue.svg"></a>
-    <a href="https://juejin.im/post/5aab4f985188255582521c57"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-1.2k%20likes-brightgreen.svg"></a>
-    <a href="https://codeclimate.com/github/l-hammer/You-need-to-know-css/maintainability"><img src="https://api.codeclimate.com/v1/badges/dfba02247f296387a1a7/maintainability" /></a>
-    <a href="http://hits.dwyl.io/l-hammer/You-need-to-know-css" alt="hit count"><img src="http://hits.dwyl.io/l-hammer/You-need-to-know-css.svg" /></a> 
-    <a href="https://github.com/l-hammer/You-need-to-know-css"><img src="https://img.shields.io/github/stars/l-hammer/You-need-to-know-css.svg?style=social"></a>
-  </p>
   <p align="center">
      我是一个不误正业的运维，机房美学大师，电子垃圾回收员，极度强迫症，整活专家 <br>
   </p>
 </p>
 
 
-## 作者首页 SILENCE
+## 作者首页/SILENCE
 
 🌏 [SILENCE OS](https://www.wzd85.com)
 
 
 ## 分享技术、感悟人生
 
-资深宅男，老司机。爱好网络，喜爱折腾
+资深宅男，老司机。爱好网络，喜爱折腾;
 
 - clone 这个仓库: `https://github.com/l-hammer/You-need-to-know-css.git`
 - 用yarn 或者 npm全局安装 [docsify-cli](https://docsify.js.org/#/): `npm install docsify-cli -g (or yarn global add docsify-cli)`
