@@ -17,11 +17,11 @@ window.$docsify = {
   name: "You-need-to-know-css",
   repo: "https://github.com/l-hammer/You-need-to-know-css",
   auto2top: true,
-  loadNavbar: true,
+  loadNavbar: false,
   loadSidebar: true,
   mergeNavbar: true,
   subMaxLevel: 2,
-  homepage: "README.md",
+  homepage: "zh-cn/README.md",
   ga: "UA-122081516-1",
   search: {
     noData: {

@@ -3,7 +3,7 @@
   <a href="https://lhammer.cn/You-need-to-know-css/#/">
     <img src="./static/logo.png" width="152">
   </a>
-  <h3 align="center">You-need-to-know-css</h3>
+  <h3 align="center">运维笔记</h3>
   <p align="center">
     <a href="https://gitter.im/You-need-to-know-css/Lobby"> <img src="https://badges.gitter.im/You-need-to-know-css/Lobby.svg"></a>
     <a href="https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-Anti%20996-blue.svg"></a>
@@ -13,14 +13,14 @@
     <a href="https://github.com/l-hammer/You-need-to-know-css"><img src="https://img.shields.io/github/stars/l-hammer/You-need-to-know-css.svg?style=social"></a>
   </p>
   <p align="center">
-    CSS tricks web developers need to know<br>
+    本人零基础开始学习，积累一些运维该掌握的知识<br>
   </p>
 </p>
 
 
-## View online
+## MY WEBSITER
 
-🌏 [You-need-to-know-css](https://lhammer.cn/You-need-to-know-css/#/)
+🌏 [You-need-to-know-css](https://www.wzd85.com/)
 
 
 ## Quick start
