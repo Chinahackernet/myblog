@@ -2,10 +2,10 @@ window.$docsify = {
   name: '运维日常笔记',
   auto2top: true,
   loadNavbar: false,
-  loadSidebar: true,
+  loadSidebar: '_sidebar.md',
   mergeNavbar: true,
   subMaxLevel: 2,
-  homepage: 'zh-cn/README.md',
+  homepage: 'articles/README.md',
 
   search: {
     noData: {
