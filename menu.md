@@ -26,18 +26,17 @@
   - [awk 入门](articles/Shell脚本/awk入门.md)
   - [awk 函数](articles/Shell脚本/awk函数.md)
   - [awk 流程控制](articles/Shell脚本/awk流程控制.md)
-  - [高级 Sed 使用](articles/Shell脚本/高级 Sed使用.md)
-  - [Linux 管道](articles/Shell脚本/Linux管道.md)
+  - [高级 Sed 使用](articles/Shell脚本/高级Sed使用.md)
+  - [Linux 管道符](articles/Shell脚本/Linux管道符.md)
   - [Linux 文件查找与打包](articles/Shell脚本/Linux文件查找与打包.md)
 
 - **网络**
   - [网络常用命令](articles/网络/网络常用命令.md)
   - [TCP/IP 简介](articles/网络/TCP_IP简介.md)
   - [TCP Wrappers](articles/网络/TCP_wrappers.md)
-  - [Socket 简介](articles/网络/Socket简介.md)
 
 - **服务部署**
-  - [Apache 配置入门](articles/服务部署/Apache 配置入门.md)
+  - [Apache配置入门](articles/服务部署/Apache配置入门.md)
   - [DHCP 服务部署与配置](articles/服务部署/Linux_DHCP服务部署与配置.md)
   - [FTP 服务部署与配置](articles/服务部署/Linux_FTP服务部署与配置.md)
   - [Samba 服务部署与配置](articles/服务部署/Linux_Samba服务部署与配置.md)
@@ -49,7 +48,7 @@
   - [iptables](articles/安全/iptables.md)
   - [iptables 攻击防御](articles/安全/iptables攻击防御.md)
   - [iptables 脚本实例](articles/安全/iptables脚本实例.md)
-  - [Kali 实验环境介绍与使用](articles/安全/Kali 实验环境介绍与使用.md)
+  - [Kali 实验环境介绍与使用](articles/安全/Kali实验环境介绍与使用.md)
   - [SELinux 简介](articles/安全/SELinux简介.md)
   - [SELinux 策略与规则管理](articles/安全/SELinux策略与规则管理.md)
 
@@ -59,7 +58,7 @@
 - **数据库**
   - [数据库的简单操作](articles/数据库/数据库的简单操作.md)
   - [MySQL 语言结构和数据类型](articles/数据库/MySQL语言结构和数据类型.md)
-  - [SQL 与 MySQL](articles/数据库/SQL与MySQL.md)
+  - [SQL 与 MySQL](articles/数据库/SQL与MYSQL.md)
 
 - **存储与备份**
   - [共享存储](articles/存储与备份/共享存储.md)
