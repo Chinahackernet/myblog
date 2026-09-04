@@ -1,6 +1,8 @@
 - **课程说明**
-  - [课程覆盖矩阵](articles/课程说明/course-coverage.md)
-  
+  - [课程矩阵](articles/课程说明/course-coverage.md)
+  - [课程大纲](articles/课程说明/Linux_Ops_Master_Enhanced_Tutorial.md)
+  - [课程目录](articles/课程说明/Linux_Ops_Master_Full_Tutorial.md)
+
 - **00 Linux 运维基础**
   - [主线总章：从主机基线到生产应急](articles/linux基础/00-linux-ops-foundation.md)
   - [Linux 主机初始化与安全基线](articles/linux基础/linux-host-baseline.md)
@@ -91,3 +93,5 @@
   - [主线总章：IaC、SLO、容量、变更与灾备](articles/全局运维/15-sre-governance.md)
   - [Ansible/IaC、变更管理与配置治理](articles/全局运维/ansible-iac-governance.md)
   - [SLO/SLI、容量规划、应急响应、灾难恢复与合规](articles/全局运维/sre-slo-incident-dr.md)
+
+
