@@ -94,4 +94,15 @@
   - [Ansible/IaC、变更管理与配置治理](articles/全局运维/ansible-iac-governance.md)
   - [SLO/SLI、容量规划、应急响应、灾难恢复与合规](articles/全局运维/sre-slo-incident-dr.md)
 
+- ** 24周Linux Ops工程师实操课 **
+  - [00_课程索引.md](articles/24周Linux Ops 工程师实操课/00_课程索引.md)
+  - [01_进入Linux世界与环境构建.md](articles/24周Linux Ops 工程师实操课/01_进入Linux世界与环境构建.md)
+  - [02_文件系统终端与文本处理.md](articles/24周Linux Ops 工程师实操课/02_文件系统终端与文本处理.md)
+  - [03_用户权限与Systemd服务.md](articles/24周Linux Ops 工程师实操课/03_用户权限与Systemd服务.mdd)
+  - [04_LVM与网络排错.md](articles/24周Linux Ops 工程师实操课/04_LVM与网络排错.md)
+  - [05_Shell与Python自动化.md](articles/24周Linux Ops 工程师实操课/05_Shell与Python自动化.md)
+  - [06_Nginx_Ansible_Terraform.md](articles/24周Linux Ops 工程师实操课/06_Nginx_Ansible_Terraform.md)
+  - [07_容器与Kubernetes高可用.md](articles/24周Linux Ops 工程师实操课/07_容器与Kubernetes高可用.md)
+  - [08_GitOps与全栈可观测.md](articles/24周Linux Ops 工程师实操课/08_GitOps与全栈可观测.md)
+  - [09_AIOps与平台工程.md](articles/24周Linux Ops 工程师实操课/09_AIOps与平台工程.md)
 
