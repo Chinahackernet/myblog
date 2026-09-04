@@ -2,7 +2,7 @@ window.$docsify = {
   name: '运维日常笔记',
   auto2top: true,
   loadNavbar: false,
-  loadSidebar: '_sidebar.md',
+  loadSidebar: 'menu.md',
   mergeNavbar: true,
   subMaxLevel: 2,
   homepage: 'articles/README.md',
