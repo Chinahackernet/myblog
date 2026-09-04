@@ -15,51 +15,25 @@
 🌏 [SILENCE OS](https://www.wzd85.com)
 
 
-## 分享技术、感悟人生
+## 关于我
 
 资深宅男，老司机。爱好网络，喜爱折腾;
 
-- clone 这个仓库: `https://github.com/l-hammer/You-need-to-know-css.git`
-- 用yarn 或者 npm全局安装 [docsify-cli](https://docsify.js.org/#/): `npm install docsify-cli -g (or yarn global add docsify-cli)`
-- 在终端运行命令 `docsify serve`
-- 打开 `http://localhost:3000` 在你的浏览器
+- 作为一名运维工程师，我拥有丰富的云平台使用经验，包括 google云、AWS、阿里云、腾讯云等`
+- 熟练掌握各种云计算技术和工具，具备快速解决故障问题的能力，并能够使用监控和自动化工具保证系统的稳定性和可用性。`
+- 具备系统架构设计能力，能够实施高可用、高效率的云运维环境。`
+- 良好的团队协作能力和沟通能力，能够与开发人员、项目经理等团队成员协调配合。
 
 
-## 贡献 ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true&style=flat-square)
+## 关于博客 ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true&style=flat-square)
 
-- :fork_and_knife:Fork 这个项目并clone到本地
-- :twisted_rightwards_arrows:新建一个分支: `git checkout -b new-branch`
-- :wrench:增加新特性或者解决一些bug
-- :memo:提交你的改变: `git commit -am 'Add some feature'`
-- :rocket:推送你的分支: `git push origin new-branch`
-- :tada:提交Pull Request
+- :fork_and_knife:我的知识来自网络和实际工作中，建立博客是为了记录工作经验以及生活点滴，也是将知识回馈给网络上有所需要的朋友。
+- :twisted_rightwards_arrows:博客主要涵盖了操作系统运维、网络运维以及线上运维等经验教程。
+- :wrench:博客虽然以 IT 运维为主题，但绝非如 51CTO 一类的专业型技术博客。
+- :memo:更倾向于以分享为目的 IT 综合类的博客。绝不会拘泥于形式，只要有好的内容。
+- :rocket:把最实用的经验，分享给最需要的读者，希望每一位来访的朋友都能有所收获！:stuck_out_tongue_winking_eye:
 
-或者提交一个[issue](https://github.com/l-hammer/You-need-to-know-css/issues) - 欢迎任何有帮助性的建议:stuck_out_tongue_winking_eye:
-
-------
-
-感谢以下朋友的贡献者:rose:
-
-<a href="https://github.com/l-hammer/You-need-to-know-css/graphs/contributors"><img src="https://opencollective.com/You-need-to-know-css/contributors.svg?width=890&button=false" /></a>
-
-## 捐赠 ![donate](https://img.shields.io/badge/%E2%98%95-Buy%20Me%20A%20Coffee-%23be4141.svg?style=flat-square&colorB=00A862)
-
-如果你觉得本项目对你有帮助，或者想对我微小的工作表示一点支持，可以请我喝一杯咖啡，感谢! 🙏🏻 🙏 🙏🏿
-
-<img src="https://lhammer.cn/You-need-to-know-css/static/reward-code.png" width="280"> <br><br>
-
-<!-- 如果你在留言中备注了你的Github的ID，将会显示在这里🤠
-
-<a href="https://github.com/fqs617" target="_blank"><img src="https://avatars3.githubusercontent.com/u/23302051?s=460&v=4" width="29" style="border-radius: 50%"></a>
-<a href="https://github.com/ElivesHuangGit" target="_blank"><img src="https://avatars0.githubusercontent.com/u/36831410?s=460&v=4" width="29" style="border-radius: 50%"></a>
-<a href="https://github.com/StaminaWang" target="_blank"><img src="https://avatars1.githubusercontent.com/u/19159159?s=460&v=4" width="29" style="border-radius: 50%"></a> -->
-
-
-## 实用小程序推荐
-
-<img src="https://lhammer.cn/You-need-to-know-css/static/mini-code-sgz.png" width="120">
-<a href="javascript:void(0);" style="display:inline-block;width:30px"></a>
-<img src="https://lhammer.cn/You-need-to-know-css/static/mini-code-jsk.png" width="120">
+ ------
 
 ## license
 
