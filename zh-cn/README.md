@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://www.wzd85.com/">
-    <img src="https://lhammer.cn/You-need-to-know-css/static/logo.png" width="152">
+  <img src="/static/logo.png" width="152">
   </a>
   <h3 align="center">运维日常笔记</h3>
   <p align="center">
