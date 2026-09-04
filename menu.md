@@ -1,6 +1,7 @@
   - **课程说明**
   - [课程规范与实验方法](articles/Linux云计算/00-课程说明/课程规范.md)
   - [课程覆盖矩阵](articles/Linux云计算/00-课程说明/覆盖矩阵.md)
+
 - **Linux 运维基础**
   - [Linux 主机初始化与安全基线](articles/Linux运维/01-主机初始化与安全基线.md)
   - [Linux 日常巡检清单](articles/Linux运维/02-日常巡检清单.md)
@@ -62,3 +63,5 @@
   - [Kubernetes 生产治理](articles/Linux云计算/06-分布式系统与Kubernetes/06-Kubernetes生产治理.md)
   - [Kubernetes Ingress 与存储实战](articles/Linux云计算/06-分布式系统与Kubernetes/07-Kubernetes-Ingress与存储实战.md)
 
+- **test**
+- [test](articles/01-KVM-QEMU-libvirt架构.md)
