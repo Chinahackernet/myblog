@@ -26,6 +26,34 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse@1.1.8/dist/sidebar.min.css"
     />
+    <style>
+      /* 分类标题本身也是可点击的展开/收缩区域 */
+      .sidebar-nav li > p,
+      .sidebar-nav li > strong {
+        cursor: pointer;
+        user-select: none;
+      }
+
+      /* PDF 阅读区域：桌面端内嵌，移动端保留足够的滚动高度 */
+      [id^="markdown_code_pdf_container_"] {
+        width: 100%;
+        min-height: 50rem;
+      }
+
+      [id^="markdown_code_pdf_container_"] .pdfobject-container,
+      [id^="markdown_code_pdf_container_"] .pdfobject {
+        width: 100%;
+        min-height: 50rem;
+      }
+
+      @media (max-width: 600px) {
+        [id^="markdown_code_pdf_container_"],
+        [id^="markdown_code_pdf_container_"] .pdfobject-container,
+        [id^="markdown_code_pdf_container_"] .pdfobject {
+          min-height: 70vh;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -34,8 +62,137 @@
     <script src="./libs/index.js"></script>
     <!-- <script src="./libs/docsify.min.js"></script> -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4.6.6/lib/docsify.min.js"></script>
+    <!-- PDFObject.js 是 PDF 嵌入插件的依赖 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
+    <!-- 支持在 Markdown 中使用 ```pdf 嵌入仓库内或 GitHub Raw PDF -->
+    <script src="https://unpkg.com/docsify-pdf-embed-plugin@1.0.8/src/docsify-pdf-embed.js"></script>
     <!-- 侧边栏目录分组的展开/收缩插件 -->
     <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse@1.1.8/dist/docsify-sidebar-collapse.min.js"></script>
+    <script>
+      // 让分类标题（例如“00 Linux 运维基础”）整行支持单击展开/收起。
+      // 使用事件代理，兼容 Docsify 路由切换后重新生成侧边栏的情况。
+      (function enableSidebarTitleToggle() {
+        function directChildList(li) {
+          for (var i = 0; i < li.children.length; i += 1) {
+            if (li.children[i].tagName === 'UL') return li.children[i];
+          }
+          return null;
+        }
+
+        document.addEventListener(
+          'click',
+          function (event) {
+            var target = event.target;
+            if (!target || !target.closest) return;
+
+            var li = target.closest('.sidebar-nav li');
+            if (!li) return;
+
+            var nestedList = directChildList(li);
+            // 文章链接仍交给 Docsify 处理；这里只拦截分类标题区域。
+            if (!nestedList || target.closest('a') || nestedList.contains(target)) return;
+
+            event.preventDefault();
+            event.stopPropagation();
+
+            var expanded = li.classList.contains('open') && !li.classList.contains('collapse');
+            li.classList.toggle('open', !expanded);
+            li.classList.toggle('collapse', expanded);
+            // Docsify 的子目录可能使用 app-sub-sidebar 类，也同步切换其状态。
+            nestedList.classList.toggle('open', !expanded);
+            li.setAttribute('aria-expanded', String(!expanded));
+          },
+          true
+        );
+      })();
+    </script>
+    <script>
+      // 侧边栏或文章中的 .pdf 链接直接交给浏览器 PDF 阅读器，避免被 Docsify 当成 Markdown 请求。
+      (function enablePdfLinks() {
+        function resolvePdfUrl(link) {
+          var href = link.getAttribute('href') || '';
+
+          // Docsify 内部链接通常是 #/path/to/file.pdf，转换为站点根目录下的真实文件。
+          if (href.charAt(0) === '#') href = href.slice(1);
+
+          try {
+            return new URL(href, window.location.origin + '/').href;
+          } catch (error) {
+            return null;
+          }
+        }
+
+        function normalizeGithubBlobUrl(url) {
+          try {
+            var parsed = new URL(url);
+            var parts = parsed.pathname.split('/');
+
+            if (
+              parsed.hostname === 'github.com' &&
+              parts.length > 5 &&
+              parts[3] === 'blob' &&
+              /\.pdf$/i.test(parts.slice(5).join('/'))
+            ) {
+              return (
+                'https://raw.githubusercontent.com/' +
+                parts[1] +
+                '/' +
+                parts[2] +
+                '/' +
+                parts[4] +
+                '/' +
+                parts.slice(5).join('/') +
+                parsed.search
+              );
+            }
+          } catch (error) {
+            return url;
+          }
+
+          return url;
+        }
+
+        // 代码块中的 GitHub blob 地址也自动转换，避免把 GitHub HTML 页面嵌入 PDF 阅读器。
+        var markdownConfig = window.$docsify && window.$docsify.markdown;
+        var originalCodeRenderer =
+          markdownConfig && markdownConfig.renderer && markdownConfig.renderer.code;
+
+        if (originalCodeRenderer) {
+          markdownConfig.renderer.code = function (code, lang) {
+            var args = Array.prototype.slice.call(arguments);
+            if (lang && String(lang).toLowerCase() === 'pdf') {
+              args[0] = normalizeGithubBlobUrl(String(code).trim());
+            }
+            return originalCodeRenderer.apply(this, args);
+          };
+        }
+
+        document.addEventListener(
+          'click',
+          function (event) {
+            var target = event.target;
+            var link = target && target.closest ? target.closest('a[href]') : null;
+            if (!link) return;
+
+            var pdfUrl = resolvePdfUrl(link);
+            if (!pdfUrl || !/\.pdf(?:[?#]|$)/i.test(pdfUrl)) return;
+
+            event.preventDefault();
+            event.stopPropagation();
+
+            var opened = window.open(
+              normalizeGithubBlobUrl(pdfUrl),
+              '_blank',
+              'noopener,noreferrer'
+            );
+
+            // 若浏览器拦截新窗口，则在当前窗口打开，确保 PDF 仍然可读。
+            if (!opened) window.location.href = normalizeGithubBlobUrl(pdfUrl);
+          },
+          true
+        );
+      })();
+    </script>
     <!-- <script src="./libs/gitalk.min.js"></script> -->
     <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
     <script src="./libs/vue.min.js"></script>
