@@ -36,7 +36,7 @@
   - [TCP Wrappers](articles/网络/TCP_wrappers.md)
 
 - **服务部署**
-  - [Apache配置入门](articles/服务部署/Apache配置入门.md)
+  - [Apache 配置入门](articles/服务部署/Apache配置入门.md)
   - [DHCP 服务部署与配置](articles/服务部署/Linux_DHCP服务部署与配置.md)
   - [FTP 服务部署与配置](articles/服务部署/Linux_FTP服务部署与配置.md)
   - [Samba 服务部署与配置](articles/服务部署/Linux_Samba服务部署与配置.md)
