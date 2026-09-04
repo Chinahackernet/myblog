@@ -54,3 +54,5 @@
 	- [常用片段](articles/common-snippets.md)
 	- [自定义变量](articles/custom-variables.md)
 	- [有趣的项目](articles/interesting-usage.md)
+- **运维笔记**
+  - [服务器日常巡检清单](articles/server-inspection.md)
