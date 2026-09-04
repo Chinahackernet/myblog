@@ -104,5 +104,5 @@
   - [06_Nginx_Ansible_Terraform.md](articles/24周Linux Ops 工程师实操课/06_Nginx_Ansible_Terraform.md)
   - [07_容器与Kubernetes高可用.md](articles/24周Linux Ops 工程师实操课/07_容器与Kubernetes高可用.md)
   - [08_GitOps与全栈可观测.md](articles/24周Linux Ops 工程师实操课/08_GitOps与全栈可观测.md)
-  - [09_AIOps与平台工程.md](articles/24周Linux Ops 工程师实操课/09_AIOps与平台工程.md)
+  - [09_AI与平台工程.md](articles/24周Linux Ops 工程师实操课/09_AI与平台工程.md)
 
