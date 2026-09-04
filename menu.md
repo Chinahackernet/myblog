@@ -1,7 +1,6 @@
 - **课程说明**
   - [课程覆盖矩阵](articles/课程说明/course-coverage.md)
-  - [课程质量门禁与实验版本矩阵](quality-gate.md)
-
+  
 - **00 Linux 运维基础**
   - [主线总章：从主机基线到生产应急](articles/linux基础/00-linux-ops-foundation.md)
   - [Linux 主机初始化与安全基线](articles/linux基础/linux-host-baseline.md)
