@@ -34,7 +34,7 @@
   - [网络常用命令](articles/网络/网络常用命令.md)
   - [TCP/IP 简介](articles/网络/TCP_IP简介.md)
   - [TCP Wrappers](articles/网络/TCP_wrappers.md)
-  - [Socket 简介](articles/网络/Socket 简介.md)
+  - [Socket 简介](articles/网络/Socket简介.md)
 
 - **服务部署**
   - [Apache 配置入门](articles/服务部署/Apache 配置入门.md)
@@ -66,5 +66,5 @@
   - [Linux 磁盘管理](articles/存储与备份/Linux磁盘管理.md)
   - [Linux 系统备份与恢复](articles/存储与备份/Linux系统备份与恢复.md)
 
-- **运维笔记**
-  - [服务器日常巡检清单](articles/server-inspection.md)
+- **Linux运维与DevOps实战**
+  - 
