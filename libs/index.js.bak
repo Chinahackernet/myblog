@@ -5,8 +5,6 @@ window.$docsify = {
   loadSidebar: 'menu.md',
   mergeNavbar: true,
   subMaxLevel: 2,
-  // 侧边栏折叠插件的初始显示层级：显示一级分类，文章列表默认收起
-  sidebarDisplayLevel: 1,
   homepage: 'articles/README.md',
 
   search: {

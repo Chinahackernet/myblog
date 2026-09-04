@@ -21,11 +21,6 @@
     <link rel="stylesheet" href="./assets/vuep.css" />
     <link rel="stylesheet" href="./assets/gitalk.css" />
     <link rel="stylesheet" href="./assets/index.css" />
-    <!-- 侧边栏目录分组的展开/收缩样式 -->
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse@1.1.8/dist/sidebar.min.css"
-    />
   </head>
 
   <body>
@@ -34,8 +29,6 @@
     <script src="./libs/index.js"></script>
     <!-- <script src="./libs/docsify.min.js"></script> -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4.6.6/lib/docsify.min.js"></script>
-    <!-- 侧边栏目录分组的展开/收缩插件 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse@1.1.8/dist/docsify-sidebar-collapse.min.js"></script>
     <!-- <script src="./libs/gitalk.min.js"></script> -->
     <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
     <script src="./libs/vue.min.js"></script>
