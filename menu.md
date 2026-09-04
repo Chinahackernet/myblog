@@ -1,7 +1,6 @@
 - **课程说明**
   - [课程覆盖矩阵](articles/course-coverage.md)
-  - [课程质量门禁与实验版本矩阵](quality-gate.md)
-
+  
 - **00 Linux 运维基础**
   - [Linux 主机初始化与安全基线](articles/linux-host-baseline.md)
   - [Shell 与文本处理：运维自动化基础](articles/linux-shell-text.md)
