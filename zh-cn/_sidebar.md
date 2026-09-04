@@ -1,5 +1,3 @@
-- **介绍**
-	- [关于CSS Tricks](zh-cn/introduce.md?v=1)
 - **边框与背景**
 	- [半透明边框](zh-cn/translucent-borders.md)
 	- [多重边框](zh-cn/multiple-borders.md)

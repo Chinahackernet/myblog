@@ -25,7 +25,7 @@
 - 良好的团队协作能力和沟通能力，能够与开发人员、项目经理等团队成员协调配合。
 
 
-## 关于博客 ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true&style=flat-square)
+## 关于博客 
 
 - :fork_and_knife:我的知识来自网络和实际工作中，建立博客是为了记录工作经验以及生活点滴，也是将知识回馈给网络上有所需要的朋友。
 - :twisted_rightwards_arrows:博客主要涵盖了操作系统运维、网络运维以及线上运维等经验教程。
