@@ -33,10 +33,7 @@
 - :memo:更倾向于以分享为目的 IT 综合类的博客。绝不会拘泥于形式，只要有好的内容。
 - :rocket:把最实用的经验，分享给最需要的读者，希望每一位来访的朋友都能有所收获！:stuck_out_tongue_winking_eye:
 
- ------
-
 ## license
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fl-hammer%2FYou-need-to-know-css.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Fl-hammer%2FYou-need-to-know-css?ref=badge_small)
 
-[996ICU](https://github.com/l-hammer/You-need-to-know-css/blob/master/LICENSE) © 2017-present, LHammer
