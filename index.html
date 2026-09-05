@@ -27,6 +27,40 @@
       href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse@1.1.8/dist/sidebar.min.css"
     />
     <style>
+      /* 侧边栏：给章节标题和长文章名留出足够空间，避免窄栏频繁换行。 */
+      :root {
+        --docsify-sidebar-width: 420px;
+      }
+
+      @media (min-width: 769px) {
+        .sidebar {
+          width: var(--docsify-sidebar-width);
+        }
+
+        .content {
+          left: var(--docsify-sidebar-width);
+        }
+
+        .sidebar-nav {
+          padding-right: 18px;
+        }
+
+        .sidebar-nav a,
+        .sidebar-nav p,
+        .sidebar-nav strong {
+          white-space: normal;
+          overflow-wrap: anywhere;
+          word-break: break-word;
+        }
+      }
+
+      @media (max-width: 768px) {
+        /* 移动端不强行使用桌面宽度，避免正文出现横向滚动。 */
+        .sidebar {
+          width: min(88vw, 360px);
+        }
+      }
+
       /* 分类标题本身也是可点击的展开/收缩区域 */
       .sidebar-nav li > p,
       .sidebar-nav li > strong {
