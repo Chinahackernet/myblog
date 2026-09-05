@@ -152,7 +152,7 @@
   - [09_多阶段构建](articles/docker容器/09_多阶段构建.md)
   - [阿里云镜像加速：](articles/docker容器/10_镜像加速.md)
   - [namespace](articles/docker容器/11docker的NS和CGroups.md)
-  - [文件权限-Docker复制并自行更改](articles/docker容器/12_Docker用法整理.md)
+  - [文件权限-Docker复制并自行更改](articles/docker容器/12_docker用法整理.md)
   - [镜像相关](articles/docker容器/13_docker和Containerd的区别.md)
   - [以非root用户运行镜像](articles/docker容器/14_镜像安全.md)
 
