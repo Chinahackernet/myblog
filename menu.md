@@ -681,7 +681,7 @@
 
 
 
-- **ELK Stack · Elasticsearch、Logstash 与 Kibana**
+- **26｜纯干货 ELK Stack · Elasticsearch、Logstash 与 Kibana**
   - [001｜ELK Stack · Elasticsearch、Logstash 与 Kibana · 章节目录](articles/01-ELK-Stack/00-catalog.md)
   - [002｜ELK 简介](articles/01-ELK-Stack/01-01_ELK简介.md)
   - [003｜ES 基础概念](articles/01-ELK-Stack/01-02_ES基础概念.md)
@@ -833,7 +833,7 @@
 
 
 
-- **Prometheus · 指标、告警与可观测性**
+- **27｜纯干货 Prometheus · 指标、告警与可观测性**
   - [001｜Prometheus · 指标、告警与可观测性 · 章节目录](articles/02-Prometheus/00-catalog.md)
   - [002｜Prometheus 简介](articles/02-Prometheus/01-01_prometheus简介.md)
   - [003｜数据模型](articles/02-Prometheus/01-02_数据模型.md)
@@ -896,7 +896,7 @@
 
 
 
-- **AIOps · GPU、LLM、RAG 与平台工程**
+- **28｜纯干货 AIOps · GPU、LLM、RAG 与平台工程**
   - [001｜AIOps · GPU、LLM、RAG 与平台工程 · 章节目录](articles/03-AIOps/00-catalog.md)
   - [002｜学习路线图](articles/03-AIOps/01-01_学习路线图.md)
   - [003｜学习资料](articles/03-AIOps/01-02_学习资料.md)
@@ -964,7 +964,7 @@
 
 
 
-- **CI/CD · GitLab、Jenkins 与 GitOps**
+- **29｜纯干货 CI/CD · GitLab、Jenkins 与 GitOps**
   - [001｜CI / CD · GitLab、Jenkins 与 GitOps · 章节目录](articles/04-CI-CD/00-catalog.md)
   - [002｜Git 常用命令](articles/04-CI-CD/01-01_git常用命令.md)
   - [003｜Git 记住账号密码](articles/04-CI-CD/01-02_git记住账号密码.md)
@@ -1073,7 +1073,7 @@
 
 
 
-- **Web 工程 · HTML、CSS、JavaScript 与构建**
+- **30｜纯干货 Web 工程 · HTML、CSS、JavaScript 与构建**
   - [001｜Web 工程 · HTML、CSS、JavaScript 与构建 · 章节目录](articles/05-Web/00-catalog.md)
   - [002｜HTML 常用标签或属性全称](articles/05-Web/01-01_HTML常用标签或属性全称.md)
   - [003｜HTML](articles/05-Web/01-02_HTML.md)
@@ -1133,7 +1133,7 @@
 
 
 
-- **Kubernetes · 集群、网络、存储与安全**
+- **31｜纯干货 Kubernetes · 集群、网络、存储与安全**
   - [001｜Kubernetes · 集群、网络、存储与安全 · 章节目录](articles/06-Kubernetes/00-catalog.md)
   - [002｜Kubernetes 特性](articles/06-Kubernetes/01-01_Kubernetes特性.md)
   - [003｜概念和术语](articles/06-Kubernetes/01-02_概念和术语.md)
@@ -1292,7 +1292,7 @@
 
 
 
-- **Database · MySQL、Redis、MongoDB 与 SQL**
+- **32｜纯干货 Database · MySQL、Redis、MongoDB 与 SQL**
   - [001｜Database · MySQL、Redis、MongoDB 与 SQL · 章节目录](articles/07-Database/00-catalog.md)
   - [002｜SQL 语言分类](articles/07-Database/01-01_SQL语言分类.md)
   - [003｜MySQL 数据类型](articles/07-Database/01-02_MySQL数据类型.md)
@@ -1444,7 +1444,7 @@
 
 
 
-- **Python · Django、DRF、FastAPI 与工程实践**
+- **33｜纯干货 Python · Django、DRF、FastAPI 与工程实践**
   - [001｜Python · Django、DRF、FastAPI 与工程实践 · 章节目录](articles/08-Python/00-catalog.md)
   - [002｜推荐工具](articles/08-Python/01-01_推荐工具.md)
   - [003｜限定符](articles/08-Python/01-02_限定符.md)
@@ -1521,7 +1521,7 @@
 
 
 
-- **VMware vSphere · 虚拟化、HA、DRS 与灾备**
+- **34｜纯干货 VMware vSphere · 虚拟化、HA、DRS 与灾备**
   - [001｜VMware vSphere · 虚拟化、HA、DRS 与灾备 · 章节目录](articles/09-VMware-vSphere/00-catalog.md)
   - [002｜专业名词](articles/09-VMware-vSphere/01-01_专业名词.md)
   - [003｜部署安装 esxi 与 vcsa](articles/09-VMware-vSphere/02-01_部署安装esxi与vcsa.md)
@@ -1543,7 +1543,7 @@
 
 
 
-- **Linux · 系统管理、网络、安全与故障排查**
+- **35｜纯干货 Linux · 系统管理、网络、安全与故障排查**
   - [001｜Linux · 系统管理、网络、安全与故障排查 · 章节目录](articles/10-Linux/00-catalog.md)
   - [002｜文件颜色与类型](articles/10-Linux/01-01_文件颜色与类型.md)
   - [003｜Linux 系统目录](articles/10-Linux/01-02_Linux系统目录.md)
@@ -1753,7 +1753,7 @@
 
 
 
-- **Docker · 镜像、容器、网络与安全**
+- **36｜纯干货 Docker · 镜像、容器、网络与安全**
   - [001｜Docker · 镜像、容器、网络与安全 · 章节目录](articles/11-Docker/00-catalog.md)
   - [002｜Docker 基础](articles/11-Docker/01-01_docker基础.md)
   - [003｜Docker 安装与卸载](articles/11-Docker/01-02_docker安装与卸载.md)
@@ -1844,7 +1844,7 @@
 
 
 
-- **Ceph · RADOS、RBD、CephFS、RGW 与 Rook**
+- **37｜纯干货 Ceph · RADOS、RBD、CephFS、RGW 与 Rook**
   - [001｜Ceph · RADOS、RBD、CephFS、RGW 与 Rook · 章节目录](articles/12-Ceph/00-catalog.md)
   - [002｜存储基础](articles/12-Ceph/01-01_存储基础.md)
   - [003｜分布式存储](articles/12-Ceph/01-02_分布式存储.md)
