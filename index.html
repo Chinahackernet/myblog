@@ -29,12 +29,18 @@
     <style>
       /* 侧边栏：给章节标题和长文章名留出足够空间，避免窄栏频繁换行。 */
       :root {
-        --docsify-sidebar-width: 420px;
+        /* 桌面端随视口缩放，同时限制最小/最大宽度，避免挤压正文或占满屏幕。 */
+        --docsify-sidebar-width: clamp(300px, 32vw, 420px);
       }
 
       @media (min-width: 769px) {
         .sidebar {
           width: var(--docsify-sidebar-width);
+        }
+
+        /* Docsify 默认只平移 300px；自定义侧栏宽度更大时会留下菜单残影。 */
+        body.close .sidebar {
+          transform: translateX(calc(-1 * var(--docsify-sidebar-width)));
         }
 
         .content {
