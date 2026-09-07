@@ -1905,3 +1905,6 @@
   - [058｜CRD 资源配置](articles/12-Ceph/10-12_CRD资源配置.md)
   - [059｜Ceph 高级配置](articles/12-Ceph/10-13_Ceph高级配置.md)
   - [060｜常见问题](articles/12-Ceph/10-14_常见问题.md)
+
+- **PDF｜纯干货 快乐的 Linux 命令行**
+  - [快乐的 Linux 命令行](assets/pdf/tlcl-cn.pdf)
