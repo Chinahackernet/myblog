@@ -1908,3 +1908,6 @@
 
 - **纯干货 在线PDF阅读**
   - [PDF｜快乐的 Linux 命令行](assets/pdf/tlcl-cn.pdf)
+
+- **37｜纯干货 Ceph · RADOS、RBD、CephFS、RGW 与 Rook**
+  - [001｜Ceph · RADOS、RBD、CephFS、RGW 与 Rook · 章节目录](articles/12-Ceph/00-catalog.md)
