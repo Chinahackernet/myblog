@@ -1906,8 +1906,5 @@
   - [059｜Ceph 高级配置](articles/12-Ceph/10-13_Ceph高级配置.md)
   - [060｜常见问题](articles/12-Ceph/10-14_常见问题.md)
 
-- **纯干货 在线PDF阅读**
+- **在线PDF文档阅读/只做收集文件在原作者仓库**
   - [PDF｜快乐的 Linux 命令行](assets/pdf/tlcl-cn.pdf)
-
-- **37｜纯干货 Ceph · RADOS、RBD、CephFS、RGW 与 Rook**
-  - [001｜Ceph · RADOS、RBD、CephFS、RGW 与 Rook · 章节目录](articles/12-Ceph/00-catalog.md)
