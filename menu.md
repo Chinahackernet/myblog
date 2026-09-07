@@ -2005,3 +2005,8 @@
   - [PDF | linux commands ](https://github.com/Deshkyrie/Hacking-PDF/blob/main/linux%20commands%20.pdf)
   - [PDF | orwa-methods](https://github.com/Deshkyrie/Hacking-PDF/blob/main/orwa-methods.pdf)
   - [PDF | windows Privilege Escalation](https://github.com/Deshkyrie/Hacking-PDF/blob/main/windows%20Privilege%20Escalation.pdf)
+
+- **38｜必坑指南 **
+  - [Python 服务上 Kubernetes:一套带金丝雀自动回滚的 CI/CD 流水线实战](articles/12-Ceph/blog_cicd_kubernetes_canary_2026-09-07.md)
+  - [Web 应用安全评估指南：生产环境只读与非入侵式实践](articles/12-Ceph/web-security-assessment-guide_20260907.md)
+  - [故障应急响应流程（Incident Response Runbook）](articles/12-Ceph/故障应急响应流程_20260907.md)
