@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta
       name="description"
@@ -55,125 +55,9 @@
       }
 
       @media (max-width: 768px) {
-        /* 移动端使用抽屉式侧边栏：关闭时完全移出视口，打开时覆盖正文。 */
-        :root {
-          --docsify-mobile-sidebar-width: min(88vw, 360px);
-        }
-
-        html,
-        body {
-          width: 100%;
-          max-width: 100%;
-          overflow-x: hidden;
-        }
-
-        main,
-        .content {
-          box-sizing: border-box;
-          width: 100%;
-          max-width: 100%;
-          overflow-x: hidden;
-        }
-
+        /* 移动端不强行使用桌面宽度，避免正文出现横向滚动。 */
         .sidebar {
-          box-sizing: border-box;
-          width: var(--docsify-mobile-sidebar-width);
-          max-width: 100%;
-          /* Docsify 默认是 -300px；宽度变更后必须同步调整，否则会露出残影。 */
-          left: calc(-1 * var(--docsify-mobile-sidebar-width));
-          padding-top: env(safe-area-inset-top);
-        }
-
-        body.close .sidebar {
-          transform: translateX(var(--docsify-mobile-sidebar-width));
-        }
-
-        /* 菜单覆盖正文，不把正文整体推到屏幕外。 */
-        body.close .content {
-          transform: none;
-        }
-
-        .sidebar-toggle,
-        body.close .sidebar-toggle {
-          box-sizing: content-box;
-          width: auto;
-          padding: 18px 20px 12px 12px;
-          bottom: env(safe-area-inset-bottom);
-        }
-
-        .sidebar-nav {
-          box-sizing: border-box;
-          width: 100%;
-          padding: 12px 16px calc(40px + env(safe-area-inset-bottom));
-        }
-
-        .sidebar-nav li {
-          margin: 2px 0;
-        }
-
-        .sidebar-nav a,
-        .sidebar-nav p,
-        .sidebar-nav strong {
-          display: block;
-          max-width: 100%;
-          box-sizing: border-box;
-          white-space: normal;
-          overflow-wrap: anywhere;
-          word-break: break-word;
-          line-height: 1.55;
-          padding: 5px 0;
-        }
-
-        .sidebar-nav > ul > li > p,
-        .sidebar-nav > ul > li > strong {
-          font-size: 15px;
-          line-height: 1.4;
-          padding: 8px 0;
-        }
-
-        .sidebar-nav ul li ul {
-          padding-left: 14px;
-        }
-
-        .markdown-section {
-          box-sizing: border-box;
-          width: 100%;
-          max-width: none;
-          margin: 0;
-          padding: 24px 16px calc(40px + env(safe-area-inset-bottom));
-        }
-
-        .markdown-section h1,
-        .markdown-section h2,
-        .markdown-section h3,
-        .markdown-section h4,
-        .markdown-section h5,
-        .markdown-section h6,
-        .markdown-section p,
-        .markdown-section li {
-          max-width: 100%;
-          overflow-wrap: anywhere;
-          word-break: break-word;
-        }
-
-        .markdown-section pre {
-          max-width: 100%;
-          overflow-x: auto;
-          -webkit-overflow-scrolling: touch;
-        }
-
-        .markdown-section table {
-          max-width: 100%;
-          overflow-x: auto;
-          -webkit-overflow-scrolling: touch;
-        }
-
-        .markdown-section img,
-        .markdown-section video,
-        .markdown-section svg,
-        .markdown-section iframe {
-          max-width: 100%;
-          height: auto;
+          width: min(88vw, 360px);
         }
       }
 
