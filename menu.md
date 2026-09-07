@@ -1958,7 +1958,6 @@
   - [PDF｜Mobile Application BugBase](https://raw.githubusercontent.com/Deshkyrie/Hacking-PDF/main/Mobile_Application_BugBase.pdf)
   - [PDF｜OSCP CheatSheet](https://raw.githubusercontent.com/Deshkyrie/Hacking-PDF/main/OSCP%20CheatSheet.pdf)
   - [PDF｜OSCP Cheatsheet 1](https://raw.githubusercontent.com/Deshkyrie/Hacking-PDF/main/OSCP%20Cheatsheet-1.pdf)
-  - [PDF｜OSWA (Offensive Security Web Attacks) – Study Overview PT.1](https://raw.githubusercontent.com/Deshkyrie/Hacking-PDF/main/OSWA%20(Offensive%20Security%20Web%20Attacks)%20%E2%80%93%20Study%20Overview%20PT.1.pdf)
   - [PDF｜OSWE NOTES BASIC BY JOAS](https://raw.githubusercontent.com/Deshkyrie/Hacking-PDF/main/OSWE%20NOTES%20BASIC%20BY%20JOAS.pdf)
   - [PDF｜OWASP Top 10 API Security Risks – 2023](https://raw.githubusercontent.com/Deshkyrie/Hacking-PDF/main/OWASP%20Top%2010%20API%20Security%20Risks%20%E2%80%93%202023.pdf)
   - [PDF｜Operator Handbook Red Team + OSINT + Blue Team Reference](https://raw.githubusercontent.com/Deshkyrie/Hacking-PDF/main/Operator%20Handbook%20Red%20Team%20%2B%20OSINT%20%2B%20Blue%20Team%20Reference.pdf)
