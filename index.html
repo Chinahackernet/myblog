@@ -175,6 +175,16 @@
           max-width: 100%;
           height: auto;
         }
+
+        /* Docsify 的 emoji 是图片；不能让通用的 height:auto 将它放大到原图尺寸。 */
+        .markdown-section img.emoji,
+        .markdown-section img[src*="githubassets.com/images/icons/emoji/"] {
+          width: 1.2rem;
+          height: 1.2rem;
+          max-width: none;
+          object-fit: contain;
+          vertical-align: middle;
+        }
       }
 
       /* 分类标题本身也是可点击的展开/收缩区域 */
